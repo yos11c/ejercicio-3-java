@@ -4,13 +4,15 @@
  */
 package metodosprogra;
  
+import java.util.Scanner;
+
 
 /**
  *
  * @author Yosmeri C. Cruz
  */
 public class Clase1 {
-    Scanner serie = new Scanner (System.in);
+    Scanner clase = new Scanner (System.in);
     
 
  

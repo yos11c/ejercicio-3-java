@@ -20,9 +20,9 @@ public class MetodosProgra {
      
     System.out.print("\n *****Bienvenido, eliga una opcion: ******");
     System.out.print("\n****1. factorial ****");
-    System.out.print("\n 2. tabla de multiplicar");
-    System.out.print("\n 3. pares e impares");
-    System.out.print("\n 4. dia de la semaana");
+    System.out.print("\n ****2. tabla de multiplicar****");
+    System.out.print("\n ****3. pares e impares***");
+    System.out.print("\n ****4. dia de la semana****");
 
      System.out.print("\n Eliga una opcion ");
        opcion=Scanner.nextInt();
@@ -46,13 +46,8 @@ public class MetodosProgra {
             break;
             
         
-          case 3: 
-         
-         int numeral = Scanner.nextInt();
-              System.out.println (objetoDos.numero(numeral));
-              break;
           case 4 :
-                  System.out.print("escoge el dia de la semana");
+                  System.out.print("Ingrese un dia");
                   int uno= Scanner.nextInt();
                   System.out.print(""+objetoDos.dia(uno));
     
